@@ -18,7 +18,9 @@
 		});
 
 	});
+</code></pre>
 
+<pre><code>
 	app.get('/book/:id', (req, res) => {
 		var query = Book.findOne({_id: req.params.id});
 		
@@ -32,4 +34,3 @@
 Note:
 
 Try to use promise whenever possible. this makes the code maintainable.
-

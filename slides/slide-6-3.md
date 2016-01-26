@@ -8,5 +8,5 @@
 	hello  joe
 
 	curl http://localhost:3000/mary
-	Cannot GET /mary
+	hello world
 </code></pre>

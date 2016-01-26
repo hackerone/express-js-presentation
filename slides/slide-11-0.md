@@ -1,9 +1,5 @@
 ## Middlewares
 
-- a function 
-- alters the flow of a request.
-- app.use
-
 <pre><code>
 	app.use((req, res, next) => {
 		req.name = 'tom';
@@ -34,8 +30,10 @@ response parameter will let you write / output your response.
 
 the third parameter next, calling next will execute the next middleware in the stack.
 
+calling app.use will let you add middleware to the request stack. so whenever your app get a request, all the middlewares that match the request will get executed.
+
 if you look at the example, we have 3 middlewares added to the flow, the first one adds a key called 'name' and set's it a value 'tom'. since it calls next(). the next middleware in the stack will get executed. 
 
 in this case, the second middleware prints the name set by the first middleware and it ends the request.
 
-since the second one doesn't call next, the third one does not get called.
+since the request end in the second middleware and the it doesn't call next, the third middleware does not get called.

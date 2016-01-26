@@ -1,1 +1,1 @@
-## and that's all the things comes in the expressJS box!
+## and that's what comes packed with expressJS!

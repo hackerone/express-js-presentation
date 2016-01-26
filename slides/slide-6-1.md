@@ -2,15 +2,15 @@
 
 <pre><code>
 	curl http://localhost:3000/tom
-	tom
+	hello tom
 
 	curl http://localhost:3000/joe
-	joe
+	hello joe
 
 	curl http://localhost:3000/mary
-	mary
+	hello mary
 
 </code></pre>
 
 Note:
-So, we add support for more names in the URL.
+So, we've added support for more names in the URL.

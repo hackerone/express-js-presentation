@@ -11,4 +11,10 @@
 </code></pre>
 
 Note:
-Writing a simple server hello world in NodeJS is pretty straight forward. NodeJS API provides a built-in http module, which let's you create a server. And here we listen to port 3000.
+Writing a simple server hello world in NodeJS is pretty straight forward. 
+NodeJS API provides a built-in http module, which let's you create a server. 
+The createServer takes in a callback, which gets 2 parameters request and response.
+
+as the name suggests, request gives you info about the request and response helps us write a response, in most web apps to the browser.
+
+And here we listen to port 3000.

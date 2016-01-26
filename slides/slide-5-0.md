@@ -1,4 +1,4 @@
-## Routing middleware.
+## Routing middleware
 
 <pre><code>
     npm install express
@@ -25,12 +25,17 @@
 </code></pre>
 
 Note:
+
+This is where express comes in.
+
 Express provides an abstraction here. instead of passing your method, you can pass the express instance to the http createServer method, and express will handle your request from there.
 
-Express uses concept of middlewares to control the flow of the request.
+let's get into the code here.
 
-npm install express will download the express module into your project
+npm install express will download the express module and it's dependencies into your project. so you can then require it from your code.
 
-If you look at the code there, in the first 2 cases of app.use we tell express to execute that function, if the URL matches /tom, /joe.
+Express uses concept of middlewares to control the flow of the request. we'll look at middlewares a bit later. but for now, app.use will add middlewares to the app's request flow.
 
-There is a third case which doesn't take a URL parameter, this will get executed for all cases, other than tom and joe.
+If you look at the code there, the first middleware which returns hello tom will get executed for '/tom'.
+
+There is case which doesn't have a URL parameter, this will get executed for all cases, other than tom.

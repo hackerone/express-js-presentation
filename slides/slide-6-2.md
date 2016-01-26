@@ -9,4 +9,7 @@
 </code></pre>
 
 Note:
-Routing even supports regex matching. So i can be rude and say hello only to people who's names are exactly 3 letters long.
+
+Routing even supports regex matching.
+
+So i can be rude and say hello only to people who's names are exactly 3 letters long.

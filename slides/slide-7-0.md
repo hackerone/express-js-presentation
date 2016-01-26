@@ -10,7 +10,7 @@
 	});
 
 	router.get('/status', (req, res) => {
-		res.write('profile');
+		res.write('active');
 		res.end();
 	});
 
@@ -19,4 +19,10 @@
 </code></pre>
 
 Note:
-To make the routing modular, express provides a separate smaller router component, which is a middleware itself.
+When the app grows, you'd want to manage the routes in a modular way.
+
+And express provides a separate smaller router component to achieve this.
+
+In case of the example above, we're adding a sub-router for /user
+
+so, any url's that has /user as the first part will be handed over to the router.

@@ -1,9 +1,5 @@
 ## Database
 
-- can use any nodeJS database drivers
-- mongoDB, rethinkDB
-- mongoose ODM
-
 <pre><code>
 	var mongoose = require('mongoose');
 	mongoose.connect('mongodb://localhost/library');
@@ -21,6 +17,9 @@
 		})
 	});
 
+</code></pre>
+
+<pre><code>
 	app.get('/book/:id', (req, res) => {
 		Book.findOne({_id: req.params.id}, (err, book) => {
 			if(err) // handle it
@@ -33,6 +32,8 @@
 Note:
 You can use expressjs with any of the nodejs database drivers. 
 
-Or you could use an odm like above. Things that we'll need to care about, when handling database operations is
+Or you could use an odm like mongoose. using an ODM gives you some cool features like input validation, pre-save post-save events and a bunch of cool features.
+
+Things that we'll need to care about, when handling database operations is
 - all the database operations are asynchronous
 - we'll be getting into the callback sooner than we think.

@@ -13,4 +13,4 @@
 </code></pre>
 
 Note:
-Apart from the views, express also offers a bunch of response helper methods for returning a json or redirect header and cookies.
+Apart from the views, express also offers a bunch of response helper methods for returning a json or redirect header and cookies etc.

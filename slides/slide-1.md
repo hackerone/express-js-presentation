@@ -3,7 +3,6 @@
 <ul>
     <li>Minimalist web application framework</li>
     <li>Runs on NodeJS</li>
-    <li>Event driven</li>
 </ul>
 
 Note:

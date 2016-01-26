@@ -9,4 +9,8 @@
 </code></pre>
 
 Note:
-Express routing  provides more cool features. You can have a parmeter in the URL.
+ExpressJS Routing mechanism doesn't stop here.
+
+we can pass parameters in the URL's and can use them in functions.
+
+so, the code above will match /tom /mary /joe /everyone and prints "hello "+ name

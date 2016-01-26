@@ -18,4 +18,6 @@ But we don't have to write our own middlewares, there's a large number of middle
 
 The express team themselves support a few essential middlewares.
 
-For example, the body parser. So expressJS on its own cannot parse the content of a POST or a cookie, it requires a middle-ware.
+Since expressJS on its own cannot parse the content of a POST or a cookie, it requires a middle-ware.
+
+For example, the body parser. 
