@@ -2,8 +2,17 @@
     "index.md",
     "slide-1.md",
     "slide-2.md",
-    ["slide-3.md", "slide-3-1.md"],
-    ["slide-4.md"],
-    ["slide-5.md", "slide-5-1.md", "slide-5-2.md", "slide-5-3.md"],
-    ["slide-6.md"]
+    ["slide-3-0.md", "slide-3-1.md"],
+    "slide-4.md",
+    ["slide-5-0.md", "slide-5-1.md", "slide-5-2.md", "slide-5-3.md"],
+    ["slide-6-0.md", "slide-6-1.md", "slide-6-2.md", "slide-6-3.md"],
+    ["slide-7-0.md", "slide-7-1.md", "slide-7-2.md"],
+    ["slide-8-0.md", "slide-8-1.md","slide-8-2.md"],
+    ["slide-9-0.md"],
+    ["slide-10-0.md", "slide-10-1.md"],
+    ["slide-11-0.md"],
+    ["slide-12-0.md", "slide-12-1.md", "slide-12-2.md", "slide-3.md"],
+    ["slide-13-0.md", "slide-13-1.md"],
+    ["slide-14-0.md"],
+    "slide-15.md"
 ]

@@ -17,4 +17,4 @@
 </code></pre>
 
 Note:
-But a web app has multiple end points or pages. So,when we need more URLs, we can add a logic inside the callback and we're done. But that's not really maintainable. we need an abstracted layer which let's us write web apps in a more manageable way.
+But a web app has multiple end points or pages. So,when we need more URLs, we can add a logic inside the callback and we're done. But that's not really maintainable. we need an abstracted layer which let's us build web apps in a more manageable way.
