@@ -1,0 +1,20 @@
+## starting a server in node.JS
+
+<pre><code>
+    var http = require('http');
+    
+	http.createServer((req, res) => {
+		if(req.url == '/') {
+			res.write('hello world');
+		} else if(req.url == '/tom'){
+			res.write('hello tom')
+		} else if(req.url == '/joe'){
+			res.write('hello joe')
+		}
+		res.end();
+	}).listen(3000);
+
+</code></pre>
+
+Note:
+But a web app has multiple end points or pages. So,when we need more URLs, we can add a logic inside the callback and we're done. But that's not really maintainable. we need an abstracted layer which let's us write web apps in a more manageable way.

@@ -1,1 +1,9 @@
-["index.md"]
+[
+    "index.md",
+    "slide-1.md",
+    "slide-2.md",
+    ["slide-3.md", "slide-3-1.md"],
+    ["slide-4.md"],
+    ["slide-5.md", "slide-5-1.md", "slide-5-2.md", "slide-5-3.md"],
+    ["slide-6.md"]
+]
